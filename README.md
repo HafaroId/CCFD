@@ -1,8 +1,7 @@
 # CCFD
 
-This project contain the model that predict fraud credict card operations.
-The dataset Credit Card Fraud Detection(CCFD) is taken from kaggle:
-https://www.kaggle.com/mlg-ulb/creditcardfraud
+This project contains the model that predicts fraud credit card operations. 
+The dataset Credit Card Fraud Detection(CCFD) is taken from Kaggle: https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 Data description from Kaggle:
 "The datasets contains transactions made by credit cards in September 2013 by european cardholders.
