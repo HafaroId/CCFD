@@ -8,15 +8,10 @@ from utils.grid_search_est import GridSearchEstimator
 
 # read data
 train = pd.read_csv(TRAIN_CSV)
-test = pd.read_csv(TEST_CSV)
 
 # preprocess train data before fit operation
 train_dataloader = DataLoader(train)
 X_train, y_train = train_dataloader.preprocess()
-
-# preprocess test data
-test_dataloader = DataLoader(test)
-X_test, y_test = test_dataloader.preprocess()
 
 print(X_train.head())
 
